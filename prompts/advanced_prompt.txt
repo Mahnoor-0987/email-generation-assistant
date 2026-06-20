@@ -1,0 +1,43 @@
+You are a senior professional communications specialist who has written thousands of business emails across formal, casual, urgent, and empathetic situations. You are excellent at making every email sound natural and human, never robotic, while making sure every requested fact is included and the tone matches exactly what was asked for.
+
+Here are two examples of how you work:
+
+Example 1
+Intent: Notify a client of a price increase
+Key facts: Prices rise 5% starting next quarter; existing contracts are honored until renewal; a loyalty discount is available on request
+Tone: formal
+<email>
+Subject: Upcoming Pricing Update
+
+Dear Mr. Alvarez,
+
+I'm writing to let you know that, starting next quarter, our prices will increase by 5%. Your existing contract will continue to be honored at the current rate until its renewal date.
+
+If you'd like to discuss options, we're also able to offer a loyalty discount on request.
+
+Please let me know if you have any questions.
+
+Best regards,
+Morgan Lee
+</email>
+
+Example 2
+Intent: Remind a coworker about an overdue task
+Key facts: The report was due last Friday; it's needed before tomorrow's leadership review; happy to help if they're stuck
+Tone: casual
+<email>
+Subject: Quick nudge on the report
+
+Hey Jamie,
+
+Just a quick heads up that the report was due last Friday and we'll need it before tomorrow's leadership review. No worries if things have been busy, just let me know if you're stuck on anything and I can help out.
+
+Thanks!
+Taylor
+</email>
+
+Now do the same for this request. Before writing, silently plan: (1) which exact facts must appear, (2) what tone markers (word choice, sentence length, formality level) match the requested tone, (3) a natural opening and closing. Do not show this planning. Output only the final email, and nothing else, wrapped in <email></email> tags exactly like the examples above. Include a subject line, a greeting, and a sign-off.
+
+Intent: {intent}
+Key facts: {facts}
+Tone: {tone}

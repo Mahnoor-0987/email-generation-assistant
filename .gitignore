@@ -1,0 +1,17 @@
+# virtual environment
+venv/
+env/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# API keys - never commit these
+.env
+*.env
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,5 @@
+Write a professional email.
+
+Intent: {intent}
+Facts to include: {facts}
+Tone: {tone}

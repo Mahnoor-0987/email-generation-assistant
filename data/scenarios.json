@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "intent": "Follow up after a client meeting",
+    "key_facts": [
+      "Discussed a 15% increase to the Q3 marketing budget",
+      "Need an updated proposal by Friday",
+      "Sarah from finance will join the next call"
+    ],
+    "tone": "formal",
+    "human_reference_email": "Subject: Follow-Up: Q3 Marketing Budget Discussion\n\nDear Mr. Thompson,\n\nThank you for taking the time to meet with us today. I wanted to follow up on our discussion regarding the proposed 15% increase to the Q3 marketing budget.\n\nAs agreed, we will prepare an updated proposal reflecting these changes and send it to you by Friday. Please also note that Sarah from our finance team will be joining our next call to walk through the cost breakdown in detail.\n\nPlease let me know if there is anything further you would like us to address before then.\n\nBest regards,\nAlex Reyes"
+  },
+  {
+    "id": 2,
+    "intent": "Request proposal details from a vendor",
+    "key_facts": [
+      "Evaluating vendors for a cloud migration project",
+      "Need a pricing breakdown by service tier",
+      "Decision deadline is the end of the month"
+    ],
+    "tone": "formal",
+    "human_reference_email": "Subject: Request for Detailed Proposal - Cloud Migration\n\nDear Ms. Patel,\n\nWe are currently evaluating vendors for an upcoming cloud migration project and would like to request a more detailed proposal from your team.\n\nSpecifically, could you provide a pricing breakdown by service tier so we can compare options accurately? We are aiming to make a final decision by the end of the month, so a prompt response would be greatly appreciated.\n\nThank you for your continued support throughout this process.\n\nSincerely,\nJordan Lee"
+  },
+  {
+    "id": 3,
+    "intent": "Apologize to a customer for a delayed shipment",
+    "key_facts": [
+      "Shipment was delayed due to a customs issue",
+      "New delivery date is June 25",
+      "Offering a 10% discount on the customer's next order"
+    ],
+    "tone": "empathetic",
+    "human_reference_email": "Subject: Update on Your Order - Our Apologies for the Delay\n\nDear Mr. Nguyen,\n\nI'm sorry to share that your recent order has been delayed due to an unexpected customs issue. I know this isn't the news you were hoping for, and I want to personally apologize for the inconvenience.\n\nYour order is now expected to arrive by June 25. As a small gesture of goodwill, we would also like to offer you a 10% discount on your next order with us.\n\nThank you for your patience and understanding. Please don't hesitate to reach out if you have any questions in the meantime.\n\nWarm regards,\nPriya Shah"
+  },
+  {
+    "id": 4,
+    "intent": "Give the team a project status update",
+    "key_facts": [
+      "Backend API work is about 80% complete",
+      "Frontend integration starts next week",
+      "No major blockers currently"
+    ],
+    "tone": "casual",
+    "human_reference_email": "Subject: Quick Project Update\n\nHey team,\n\nWanted to give you a quick update on where things stand. The backend API is about 80% done, and we're on track to kick off frontend integration next week. No major blockers right now, so things are moving smoothly.\n\nWill keep you posted as we get further into integration. Let me know if you have any questions!\n\nCheers,\nSam"
+  },
+  {
+    "id": 5,
+    "intent": "Reschedule a meeting",
+    "key_facts": [
+      "Original meeting was Tuesday at 2pm",
+      "Proposed new time is Thursday at 10am",
+      "Need confirmation by end of day tomorrow"
+    ],
+    "tone": "formal",
+    "human_reference_email": "Subject: Request to Reschedule Tuesday's Meeting\n\nDear Ms. Garcia,\n\nI'm writing to ask if we could reschedule our meeting originally planned for Tuesday at 2pm. Would Thursday at 10am work on your end instead?\n\nCould you kindly confirm by end of day tomorrow so we can finalize the new time? I apologize for any inconvenience this may cause.\n\nThank you for your flexibility.\n\nBest regards,\nDaniel Cho"
+  },
+  {
+    "id": 6,
+    "intent": "Escalate a production outage to leadership",
+    "key_facts": [
+      "Production servers have been down since 9am",
+      "All EU customers are affected",
+      "Engineering team is investigating now"
+    ],
+    "tone": "urgent",
+    "human_reference_email": "Subject: URGENT: Production Outage Affecting EU Customers\n\nHi all,\n\nWe have a critical issue: our production servers have been down since 9am and all EU customers are currently affected.\n\nOur engineering team is investigating right now and treating this as top priority. I will send an update within the hour, but wanted to flag this immediately given the impact.\n\nPlease let me know if you need anything further on my end.\n\nThanks,\nMaria Lopez"
+  },
+  {
+    "id": 7,
+    "intent": "Thank a guest speaker after a conference",
+    "key_facts": [
+      "They spoke at our annual conference last week",
+      "Attendee feedback was overwhelmingly positive",
+      "We would like to invite them back next year"
+    ],
+    "tone": "warm",
+    "human_reference_email": "Subject: Thank You for Speaking at Our Conference\n\nDear Dr. Williams,\n\nI just wanted to say thank you again for speaking at our annual conference last week. The feedback from attendees has been overwhelmingly positive, and many people told us your session was a highlight of the event.\n\nWe would love to have you back next year if you're open to it. Either way, we're so grateful for the time and insight you shared with us.\n\nWith appreciation,\nEmily Foster"
+  },
+  {
+    "id": 8,
+    "intent": "Cold outreach to a potential client",
+    "key_facts": [
+      "Our service reduces cloud infrastructure costs by about 30%",
+      "We're offering a free 15-minute cost audit",
+      "We work with SaaS companies with 50-200 employees"
+    ],
+    "tone": "persuasive",
+    "human_reference_email": "Subject: Cutting Your Cloud Costs by ~30%\n\nHi Mr. Adebayo,\n\nMany SaaS companies your size (50-200 employees) are overpaying for cloud infrastructure without realizing it. On average, we help our clients reduce those costs by about 30%.\n\nI'd like to offer you a free 15-minute cost audit so you can see exactly where the savings would come from, no obligation attached.\n\nWould you be open to a short call this week?\n\nBest,\nChris Bennett"
+  },
+  {
+    "id": 9,
+    "intent": "Decline a request to extend a contract deadline",
+    "key_facts": [
+      "We cannot extend the contract deadline",
+      "Our budget cycle closes this quarter",
+      "We're willing to revisit the request in Q1 next year"
+    ],
+    "tone": "polite but firm",
+    "human_reference_email": "Subject: Re: Contract Deadline Extension Request\n\nDear Mr. Ibrahim,\n\nThank you for reaching out about extending the contract deadline. After reviewing internally, we're unable to accommodate an extension at this time, as our budget cycle closes this quarter.\n\nThat said, we would be glad to revisit this request in Q1 of next year if circumstances allow. I appreciate your understanding and apologize for any disruption this causes.\n\nPlease let me know if you'd like to discuss alternatives in the meantime.\n\nRegards,\nLena Novak"
+  },
+  {
+    "id": 10,
+    "intent": "Deliver news of a job position being eliminated",
+    "key_facts": [
+      "The position has been eliminated due to company restructuring",
+      "A severance package of two months' pay is included",
+      "HR will follow up with full details this week"
+    ],
+    "tone": "empathetic",
+    "human_reference_email": "Subject: Important Update Regarding Your Position\n\nDear Marcus,\n\nI need to share some difficult news. As part of a company-wide restructuring, your position has been eliminated, effective this month.\n\nThis decision was not made lightly, and I want you to know it reflects organizational changes rather than your performance. You will receive a severance package equivalent to two months' pay, and our HR team will reach out this week with the full details and next steps.\n\nI'm truly sorry to be delivering this news, and I'm happy to talk through any questions you have.\n\nSincerely,\nRachel Kim"
+  }
+]

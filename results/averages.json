@@ -1,0 +1,12 @@
+{
+  "advanced": {
+    "fact_inclusion_rate": 0.9,
+    "tone_alignment_score": 0.745,
+    "structural_conciseness_score": 0.881
+  },
+  "naive": {
+    "fact_inclusion_rate": 0.667,
+    "tone_alignment_score": 0.43,
+    "structural_conciseness_score": 0.547
+  }
+}

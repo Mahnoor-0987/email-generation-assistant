@@ -1,0 +1,127 @@
+scenario_id,intent,tone,strategy,fact_inclusion_rate,tone_alignment_score,structural_conciseness_score,email_output
+1,Follow up after a client meeting,formal,advanced,1.0,0.7,1.0,"Subject: Follow-Up: Q3 Marketing Budget Discussion
+
+Dear Mr. Thompson,
+
+Thank you for taking the time to meet with us today. I wanted to follow up on our discussion regarding the proposed 15% increase to the Q3 marketing budget.
+
+As agreed, we will prepare an updated proposal reflecting these changes and send it to you by Friday. Please also note that Sarah from our finance team will be joining our next call to walk through the cost breakdown in detail.
+
+Please let me know if there is anything further you would like us to address before then.
+
+Best regards,
+Alex Reyes"
+1,Follow up after a client meeting,formal,naive,0.667,0.4,0.553,"To Whom It May Concern, Discussed a 15% increase to the Q3 marketing budget Need an updated proposal by Friday. Let me know if you have questions."
+2,Request proposal details from a vendor,formal,advanced,1.0,0.7,0.962,"Subject: Request for Detailed Proposal - Cloud Migration
+
+Dear Ms. Patel,
+
+We are currently evaluating vendors for an upcoming cloud migration project and would like to request a more detailed proposal from your team.
+
+Specifically, could you provide a pricing breakdown by service tier so we can compare options accurately? We are aiming to make a final decision by the end of the month, so a prompt response would be greatly appreciated.
+
+Thank you for your continued support throughout this process.
+
+Sincerely,
+Jordan Lee"
+2,Request proposal details from a vendor,formal,naive,0.667,0.4,0.553,"To Whom It May Concern, Evaluating vendors for a cloud migration project Need a pricing breakdown by service tier. Let me know if you have questions."
+3,Apologize to a customer for a delayed shipment,empathetic,advanced,0.667,0.85,1.0,"Subject: Update on Your Order - Our Apologies for the Delay
+
+Dear Mr. Nguyen,
+
+I'm sorry to share that your recent order has been delayed due to an unexpected customs issue. I know this isn't the news you were hoping for, and I want to personally apologize for the inconvenience.
+
+Your order is now expected to arrive by June 25. As a small gesture of goodwill, we would also like to offer you a 10% discount on your next order with us.
+
+Thank you for your patience and understanding. Please don't hesitate to reach out if you have any questions in the meantime.
+
+Warm regards,
+Priya Shah"
+3,Apologize to a customer for a delayed shipment,empathetic,naive,0.667,0.4,0.55,"To Whom It May Concern, Shipment was delayed due to a customs issue New delivery date is June 25. Let me know if you have questions."
+4,Give the team a project status update,casual,advanced,1.0,0.7,1.0,"Subject: Quick Project Update
+
+Hey team,
+
+Wanted to give you a quick update on where things stand. The backend API is about 80% done, and we're on track to kick off frontend integration next week. No major blockers right now, so things are moving smoothly.
+
+Will keep you posted as we get further into integration. Let me know if you have any questions!
+
+Cheers,
+Sam"
+4,Give the team a project status update,casual,naive,0.667,0.4,0.543,"To Whom It May Concern, Backend API work is about 80% complete Frontend integration starts next week. Let me know if you have questions."
+5,Reschedule a meeting,formal,advanced,1.0,0.85,1.0,"Subject: Request to Reschedule Tuesday's Meeting
+
+Dear Ms. Garcia,
+
+I'm writing to ask if we could reschedule our meeting originally planned for Tuesday at 2pm. Would Thursday at 10am work on your end instead?
+
+Could you kindly confirm by end of day tomorrow so we can finalize the new time? I apologize for any inconvenience this may cause.
+
+Thank you for your flexibility.
+
+Best regards,
+Daniel Cho"
+5,Reschedule a meeting,formal,naive,0.667,0.4,0.55,"To Whom It May Concern, Original meeting was Tuesday at 2pm Proposed new time is Thursday at 10am. Let me know if you have questions."
+6,Escalate a production outage to leadership,urgent,advanced,1.0,0.85,0.945,"Subject: URGENT: Production Outage Affecting EU Customers
+
+Hi all,
+
+We have a critical issue: our production servers have been down since 9am and all EU customers are currently affected.
+
+Our engineering team is investigating right now and treating this as top priority. I will send an update within the hour, but wanted to flag this immediately given the impact.
+
+Please let me know if you need anything further on my end.
+
+Thanks,
+Maria Lopez"
+6,Escalate a production outage to leadership,urgent,naive,0.667,0.4,0.547,"To Whom It May Concern, Production servers have been down since 9am All EU customers are affected. Let me know if you have questions."
+7,Thank a guest speaker after a conference,warm,advanced,0.667,0.55,0.889,"Subject: Thank You for Speaking at Our Conference
+
+Dear Dr. Williams,
+
+I just wanted to say thank you again for speaking at our annual conference last week. The feedback from attendees has been overwhelmingly positive, and many people told us your session was a highlight of the event.
+
+We would love to have you back next year if you're open to it. Either way, we're so grateful for the time and insight you shared with us.
+
+With appreciation,
+Emily Foster"
+7,Thank a guest speaker after a conference,warm,naive,0.667,0.4,0.524,"To Whom It May Concern, They spoke at our annual conference last week Attendee feedback was overwhelmingly positive. Let me know if you have questions."
+8,Cold outreach to a potential client,persuasive,advanced,1.0,0.85,1.0,"Subject: Cutting Your Cloud Costs by ~30%
+
+Hi Mr. Adebayo,
+
+Many SaaS companies your size (50-200 employees) are overpaying for cloud infrastructure without realizing it. On average, we help our clients reduce those costs by about 30%.
+
+I'd like to offer you a free 15-minute cost audit so you can see exactly where the savings would come from, no obligation attached.
+
+Would you be open to a short call this week?
+
+Best,
+Chris Bennett"
+8,Cold outreach to a potential client,persuasive,naive,0.667,0.7,0.557,"To Whom It May Concern, Our service reduces cloud infrastructure costs by about 30% We're offering a free 15-minute cost audit. Let me know if you have questions."
+9,Decline a request to extend a contract deadline,polite but firm,advanced,0.667,0.7,0.933,"Subject: Re: Contract Deadline Extension Request
+
+Dear Mr. Ibrahim,
+
+Thank you for reaching out about extending the contract deadline. After reviewing internally, we're unable to accommodate an extension at this time, as our budget cycle closes this quarter.
+
+That said, we would be glad to revisit this request in Q1 of next year if circumstances allow. I appreciate your understanding and apologize for any disruption this causes.
+
+Please let me know if you'd like to discuss alternatives in the meantime.
+
+Regards,
+Lena Novak"
+9,Decline a request to extend a contract deadline,polite but firm,naive,0.667,0.4,0.547,"To Whom It May Concern, We cannot extend the contract deadline Our budget cycle closes this quarter. Let me know if you have questions."
+10,Deliver news of a job position being eliminated,empathetic,advanced,1.0,0.7,0.974,"Subject: Important Update Regarding Your Position
+
+Dear Marcus,
+
+I need to share some difficult news. As part of a company-wide restructuring, your position has been eliminated, effective this month.
+
+This decision was not made lightly, and I want you to know it reflects organizational changes rather than your performance. You will receive a severance package equivalent to two months' pay, and our HR team will reach out this week with the full details and next steps.
+
+I'm truly sorry to be delivering this news, and I'm happy to talk through any questions you have.
+
+Sincerely,
+Rachel Kim"
+10,Deliver news of a job position being eliminated,empathetic,naive,0.667,0.4,0.546,"To Whom It May Concern, The position has been eliminated due to company restructuring A severance package of two months' pay is included. Let me know if you have questions."
